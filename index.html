@@ -5,11 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Crestfall patch notes</title>
     <style>
-        #downloadButton {
+	        #downloadButton {
             display: inline-block;
             padding: 10px 50px;
             margin-top: 20px;
-            margin-right: 20px;
+			margin-right: 20px;
             background-color: #4CAF50;
             color: #fff;
             text-decoration: none;
@@ -75,101 +75,80 @@
         img {
             max-width: 60%;
             margin-bottom: 1px;
-            float: right; /* Align images to the right */
-            margin-left: 20px; /* Add margin for spacing */
         }
 
         .normal-line-height {
             line-height: 1.6;
         }
-
-        .text-right img {
-            float: left; /* Align images to the left */
-            margin-right: 20px; /* Add margin for spacing */
-        }
-
-        .text-right p,
-        .text-right ul {
-            text-align: right; /* Align text to the right */
-        }
     </style>
 </head>
 <body>
 
-<header>
-    <h1>CrestFall Patch Notes</h1>
-</header>
+    <header>
+        <h1>CrestFall Patch Notes</h1>
+    </header>
 
-<section>
-    <h2>Version 0.0.6 - Patch Notes (download at the bottom)</h2>
+    <section>
+        <h2>Version 0.0.6 - Patch Notes  (download at the botton)</h2>
 
-    <p class="normal-line-height">This is a big patch. I have worked on a lot of stuff in this patch such as refining the building system, Player movement, adding crops, adding some animations ETC.</p>
+        <p class="normal-line-height">This is a big patch. I have worked on a lot of stuff in this patch such as refining the building system, Player movement, adding crops, adding some animations ETC.</p>
 
-    <h2>Player Movement</h2>
-    <p>First, let's go over the player movement. The player movement was just a static cylinder sliding around with nothing but a walking which felt like running... So I added some necessary feel to it.</p>
-    <p>Here's what I added to the movement:</p>
-    <ul>
-        <li>Sprinting</li>
-        <p>I have added sprinting now to make the movement a little complex and to raise the difficulty a bit</p>
-        <img src="Sprinting.gif" alt="Patch Image 1">
-        <li class="text-right">Tilting Sideways</li>
-        <p class="text-right">To liven things up a bit, I made it so when you go sideways the camera tilts a bit to the direction you are headed</p>
-        <img src="TiltingSideways.gif" alt="Patch Image 1" class="text-right">
-    </ul>
+        <h2>Player Movement</h2>
+        <p>First, let's go over the player movement. The player movement was just a static cylinder sliding around with nothing but a walking which felt like running... So I added some necessary feel to it.</p>
+        <p>Here's what I added to the movement:</p>
+        <ul>
+            <li>Sprinting</li>
+            <p>I have added sprinting now to make the movement a little complex and to raise the difficulty a bit</p>
+            <img src="Sprinting.gif" alt="Patch Image 1">
+            <li>Tilting Sideways</li>
+            <p>To liven things up a bit, I made it so when you go sideways the camera tilts a bit to the direction you are headed</p>
+            <img src="TiltingSideways.gif" alt="Patch Image 1">
+        </ul>
 
-    <h2>Building Blocks</h2>
-    <p>I have overhauled the building system. The grid system wasn't accurate and would ruin your builds with inconsistent grid size. Now the grid system is fixed and refined. I have also remodeled all the existing building blocks. They all have proper placing animations and can be chopped down which you couldn't do before.</p>
-    <p>Here are all the blocks I added/modified below:</p>
-    <ul>
-        <li>Oak Walls</li>
-        <img src="OakWall.gif" alt="Patch Image 1">
-        <li class="text-right">Oak Floors</li>
-        <img src="OakFloor.gif" alt="Patch Image 1" class="text-right">
-        <li>Dirts</li>
-        <img src="Dirt.gif" alt="Patch Image 1">
-        <li class="text-right">Oak Stairs</li>
-        <img src="OakStairs.gif" alt="Patch Image 1" class="text-right">
-        <li>Oak Window</li>
-        <img src="OakWindow.gif" alt="Patch Image 1">
-        <li class="text-right">Fences</li>
-        <img src="Fence.gif" alt="Patch Image 1" class="text-right">
-        <li>Cannons</li>
-        <p>Okay cannons are actually interactive, and let's just say they are quite overpowered at the moment...</p>
-        <img src="canon.gif" alt="Patch Image 1">
-    </ul>
+        <h2>Building Blocks</h2>
+        <p>I have overhauled the building system. The grid system wasn't accurate and would ruin your builds with inconsistent grid size. Now the grid system is fixed and refined. I have also remodeled all the existing building blocks. They all have proper placing animations and can be chopped down which you couldn't do before.</p>
+        <p>Here are all the blocks I added/modified below:</p>
+        <ul>
+            <li>Oak Walls</li>
+            <img src="OakWall.gif" alt="Patch Image 1">
+            <li>Oak Floors</li>
+            <img src="OakFloor.gif" alt="Patch Image 1">
+            <li>Dirts</li>
+            <img src="Dirt.gif" alt="Patch Image 1">
+            <li>Oak Stairs</li>
+            <img src="OakStairs.gif" alt="Patch Image 1">
+            <li>Oak Window</li>
+            <img src="OakWindow.gif" alt="Patch Image 1">
+            <li>Fences</li>
+            <img src="Fence.gif" alt="Patch Image 1">
+            <li>Cannons</li>
+            <p>Okay cannons are actually interactive, and let's just say they are quite overpowered at the moment...</p>
+            <img src="canon.gif" alt="Patch Image 1">
+        </ul>
 
-    <h2>Crops</h2>
-    <p>This patch is a big one as this is the version where we introduce you to farming. There's really no use for this yet, but at least they go well with dirt and fence!</p>
-    <ul>
-        <li>Wheat</li>
-        <img src="Wheat.gif" alt="Patch Image 1">
-        <li class="text-right">Tomatoes</li>
-        <img src="Tomatoes.gif" alt="Patch Image 1" class="text-right">
-        <li>Potatoes</li>
-        <img src="Potatoes.gif" alt="Patch Image 1">
-        <li class="text-right">Apple Tree</li>
-        <p class="text-right">YES! AT LAST YOU CAN PLACE TREES!!!!</p>
-        <img src="AppleTree.gif" alt="Patch Image 1" class="text-right">
-        <li>Flower1</li>
-        <img src="Flower1.gif" alt="Patch Image 1">
-        <li class="text-right">
-        Flower2</li>
-        <img src="Flower2.gif" alt="Patch Image 1" class="text-right">
-    </ul>
+        <h2>Crops</h2>
+        <p>This patch is a big one as this is the version where we introduce you to farming. There's really no use for this yet, but at least they go well with dirt and fence!</p>
+        <ul>
+            <li>Wheat</li>
+            <img src="Wheat.gif" alt="Patch Image 1">
+            <li>Tomatoes</li>
+            <img src="Tomatoes.gif" alt="Patch Image 1">
+            <li>Potatoes</li>
+            <img src="Potatoes.gif" alt="Patch Image 1">
+            <li>Apple Tree</li>
+            <p>YES! AT LAST YOU CAN PLACE TREES!!!!</p>
+            <img src="AppleTree.gif" alt="Patch Image 1">
+            <li>Flower1</li>
+            <img src="Flower1.gif" alt="Patch Image 1">
+            <li>Flower2</li>
+            <img src="Flower2.gif" alt="Patch Image 1">
+        </ul>
 
-    <h2>Bug Fixes</h2>
-    <ul>
-        <li>Fixed a critical bug that caused crashes during gameplay.</li>
-        <li>Fixed not being able to break placed objects.</li>
-    </ul>
-
-    <a id="downloadButton" href="https://www.dropbox.com/scl/fo/s2shz1eu0s3v69ufslijc/h?rlkey=7ueltuilfp9ervljeddivrjod&dl=1">
-        <p>Download Version 0.0.6</p>
-    </a>
-    <a id="downloadButton" href="https://www.google.com" target="_blank">
-        <p>Download (Steam)</p>
-    </a>
-</section>
-
-</body>
-</html>
+        <h2>Bug Fixes</h2>
+        <ul>
+            <li>Fixed a critical bug that caused crashes during gameplay.</li>
+            <li>fixed not being able to break placed objects.</li>
+        </ul>
+		<a id="downloadButton" href="https://www.dropbox.com/scl/fo/s2shz1eu0s3v69ufslijc/h?rlkey=7ueltuilfp9ervljeddivrjod&dl=1" <p>Download Version 0.0.6</p>
+		<a id="downloadButton" href="https://www.google.com" target="_blank" <p>Download (Steam)</p>
+    </section>
